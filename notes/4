@@ -1,20 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-
-<body>
-    <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
-    <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-</body>
-
-</html>
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain",
+                "Copying is not allowed on this webpage"); // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }        *::selection {
+            background: none;
+        }        *::-moz-selection {
+            background: none;
+        }        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head><body>
+    
+<br>    <center>व्यावसायिक पत्र</center>
+    
+<br>    
+<br>    <h3>शब्दभण्डार</h3>
+<br>
+<span>१. शब्द र अर्थको जोडा मिलाउनुहोस् ।</span>
+<br><br>
+<b>प्रबन्ध</b> - बन्दोबस्त, चाँजोपाँजो
+<br>
+<br>
+<b>अवगत</b> - जानेको वा बुझेको
+<br>
+<br>
+<b>दीर्घकालीन</b> - लामो समय
+<br>
+<br>
+<b>सङ्कलित</b> - बटुलिएको
+<br>
+<br>
+<b>वितरण</b> - बाँडफाँड
+<br>
+<br>
+<b>सहकार्य</b> - दुई वा दुईभन्दा बढी व्यक्ति वा संस्थाले मिलेर गरिने काम
+<br>
+<br>
+<b>प्रस्ताव</b> - कुनै कामको आरम्भ वा सम्पादनका लागि प्रस्तुत गरिएको विचार
+<br>
+<br>
+<b>यथाशीघ्र</b> - जतिसक्दो चाँडो
+<br><br><br><br>
+<span>२. दिइएका शब्दको विपरीतार्थक शब्द लेख्नुहोस् :</span>
+<br><br>
+हार - जित
+<br><br>
+दाहिने - देब्रे
+<br><br>
+रुनु - हाँस्नु
+<br><br>
+आफ्नो - अर्काको
+<br><br>
+दिन - रात
+<br><br>
+आय - व्यय 
+<br><br>
+सक्कली - नक्कली
+<br><br>
+निराशा - आशा
+<br><br>
+प्रतिकूल - अनुकूल
+<br><br>
+जस - अपजस
+<br><br>
+प्रेम - घृणा
+<br><br>
+आकर्षण - विकर्षण
+<br><br>
+जटिल - सरल
+<br><br>
+सबल - दुबर्ल
+<br><br>
+सापेक्ष - निरपेक्ष
+<br><br>
+हर्ष - विस्मात्
+<br><br>
+सपना - विपना
+<br><br>
+अनावश्यक - आवश्यक
+<br><br><br><br>
+<span>३. तलका शब्दको लघुतावाचक शब्द लेख्नुहोस् : </span>
+<br><br>
+<b>(क)</b>
+<br>
+किरो - किरी
+<br>
+कोदालो - कोदाली
+<br>
+गाग्रो - गाग्री 
+<br>
+चिम्टा - चिम्टी
+<br>
+चरो - चरी
+<br>
+थाल - थाली
+<br>
+ठेको - ठेकी
+<br>
+पुस्तक - पुस्तिका, पाना 
+<br><br><br>
+<b>(ख)</b>
+<br>
+रोटी - टुक्रा
+<br>
+सुन्तला - केस्रो
+<br>
+भात - सिता
+<br>
+पराल - त्यान्द्रो
+<br>
+पानी - थोपा
+<br>
+फूल - पत्र वा दल
+<br>
+केरा - कोसो
+    
+<br><br><br><br><br>    <h3>बोध र अभिव्यक्ति</h3>
+    
+<br>
+    
+    
+<br>    
+<br></body></html>
