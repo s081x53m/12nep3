@@ -2,33 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
+
     <script>
-        document.addEventListener(
-            "contextmenu",
-            function (evt) {
-                evt.preventDefault();
-            },
-            false
-        );
-        document.addEventListener(
-            "copy",
-            function (evt) {
-                // Change the copied text if you want
-                evt.clipboardData.setData(
-                    "text/plain",
-                    "Copying is not allowed on this webpage"
-                ); // Prevent the default copy action
-                evt.preventDefault();
-            },
-            false
-        );
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
     </script>
+
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
         /* NO SELECT + HIGHLIGHT COLOR */
         * {
@@ -44,6 +38,7 @@
         *::-moz-selection {
             background: none;
         }
+
 
         /* styling text content */
         body {
