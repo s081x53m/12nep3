@@ -5,16 +5,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
 
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *:moz-selection {
+            background: none;
+        }
+
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        th,
+        td {
+            padding: 3px 10px;
+        }
+
+        div table,
+        div th,
+        div td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>पाठ १२<br>
+        जीवन मार्ग</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-</body>
+    <h3>शब्दभण्डार</h3>
+    <br>
+    <span>१. शब्द र अर्थबिच जोडा मिलाउनुहोस् :</span>
+    <br><br>
+    <b>मौलिक</b> : कसैको आधार नलिएको, सिर्जनात्मक
+    <br><br>
+    <b>बाहुल्य</b> : धेरै हुनाको भाव वा अवस्था
+    <br><br>
+    <b>जतन</b> : सुरक्षित
+    <br><br>
+    <b>चिनो</b> : चिह्न, निसान
+    <br><br>
+    <b>निर्यात</b> : स्वदेशबाट विदेशमा सामान पठाउने काम
+    <br><br>
+    <b>वर्चस्व</b> : आफ्नो अधिकार बाहिरको कुरामा गरिने दखल
+    <br><br>
+    <b>मूर्त</b> : स्पष्ट आकार भएको
+    <br><br>
+    <b>किनिमा</b> : भटमासबाट बनाइएको एक प्रकारको परिकार
+    <br><br>
+    <b>मकर नुहाउनु</b> : माघे सङ्क्रान्तिमा नुहाउने काम
+    <br><br>
+    <b>हस्तक्षेप</b> : नियन्त्रण, अधिकार
+    <br><br>
+    <b>फत्ते</b> : सम्पन्न, पूरा
+
+    <br><br><br>
+
+    <span>४. दिइएका शब्दको अर्थ लेख्नुहोस् :</span>
+    <br><br>
+    <b>परिकल्पनाकार :</b> पछि सिद्ध हुन सक्ने कुराको पहिले नै मनमा अड्कल वा धारणा गर्न सक्ने व्यक्ति
+    <br><br>
+    <b>आना :</b> सोह्र भागको एक भाग
+    <br><br>
+    <b>धुर :</b> एक कट्ठाको बिसौ भाग जमिनको परिमाण
+    <br><br>
+    <b>आत्मनिर्भर :</b> बाँच्नका लागि अरूको भर पर्नु नपर्ने
+    <br><br>
+    <b>आयात :</b> विदेशबाट खरिद गरिएको
+    <br><br>
+    <b>एकाधिकार :</b> एकलौटी अधिकार, एकाधिपत्य
+    <br><br>
+    <b>कृत्रिम :</b> प्राकृतिक वा स्वाभाविक नभएको
+    <br><br>
+    <b>अर्गानिक :</b> जीवसँग सम्बन्धित प्रक्रियाहरू वा जीवित जीवहरू समावेश गर्ने प्रक्रियाद्वारा उत्पादित
+    <br><br>
+    <b>जोखिम :</b> शारीरिक, मानसिक हानिनोक्सानी हुन सक्ने डरलाग्दो काम
+    <br><br>
+    <b>विकल्प :</b> पहिले कुनै कुरा सोचेर फेरि त्यसका विपरीत अर्कै कुरा सोच्ने काम
+
+    <br><br><br>
+
+    <span>५. शब्दकोशको सहायताबाट उदाहरणमा दिए झैँ तलका शब्दको शब्दवर्ग, शब्दस्रोत र अर्थ लेख्नुहोस् :</span>
+    <br><br>
+    <table>
+        <tr>
+            <th>शब्द</th>
+            <th>शब्दवर्ग</th>
+            <th>शब्दस्रोत</th>
+            <th>अर्थ</th>
+        </tr>
+        <tr>
+            <td>असल</td>
+            <td>वि. (विशेषण)</td>
+            <td>अ. (अरबी)</td>
+            <td>राम्रो, उत्तम</td>
+        </tr>
+        <tr>
+            <td>विकास</td>
+            <td>ना. (नाम)</td>
+            <td>सं. (संस्कृत)</td>
+            <td>उन्नति</td>
+        </tr>
+        <tr>
+            <td>इष्ट</td>
+            <td>वि. (विशेषण)</td>
+            <td>सं (संस्कृत)</td>
+            <td>इच्छा गरिएको</td>
+        </tr>
+        <tr>
+            <td>स्कुल</td>
+            <td>ना. (नाम)</td>
+            <td>अड् (अङ्ग्रेजी)</td>
+            <td>विद्यालय</td>
+        </tr>
+        <tr>
+            <td>किनामा</td>
+            <td>ना. (नाम)</td>
+            <td>लि. (लिच्छवीय)</td>
+            <td>भटमास उसिनेर खरानीमा मुछी धेरै दिनसम्म गुम्स्याएर राखिएको खाद्य पदार्थ</td>
+        </tr>
+        <tr>
+            <td>चिया</td>
+            <td>ना. (नाम)</td>
+            <td>चि. (चीनदेशीय)</td>
+            <td>सेता फूल फुल्ने, एक थरी बाहमासे बुटोका कलिला पातका मुना सुकाएर तयार पारिएको पत्ती</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <br>
+
+    <h3>बोध र अभिव्यक्ति</h3>
+    <br>
+    <span>१. रिपोर्ताज पाठ पढी सोधिएका प्रश्नको उत्तर भन्नुहोस् :</span>
+    <br><br>
+    <span>(क) चोमोलुङ्मा औद्योगिक प्रतिष्ठान कस्तो प्रतिष्ठान हो ?</span>
+    <br>
+    चोमोलुङ्ग औद्योगिक प्रतिष्ठान नेपालको मौलिक पहिचान झल्काउने र स्थानीय कच्चा सामनको सदुपयोग गर्दै उद्योग स्थापना गरेको प्रतिष्ठान हो ।
+    <br><br>
+
+    <span>(ख) चोमोलुङ्मा औद्योगिक प्रतिष्ठानबाट बिक्री गरिने सामान किन लोकप्रिय भए ?</span>
+    <br>
+    चोमोलुङ्मा औद्योगिक प्रतिष्ठानबाट बिक्री गरिने सामान नेपालको मौलिकता र पहिचानमा आधारित भएकाले लोकप्रिय भए ।
+    <br><br>
+
+    <span>(ग) छिरिङको पारिवारिक पृष्ठभूमि कस्तो छ ?</span>
+    <br>
+    छिरिङको परिवारमा छिरिङ, बाबाआमा र भाइबहिनीहरू छन् । थोरै मात्र जग्गा जमिन भएको छिरिङको परिवारमा बुबाले भारी बोक्ने काम र आमाले घरको काम गरेर मुस्किलले जीवन कटेको थियो । त्यसैले आर्थिक दृष्टिकोणले दयनीय छिरिङको न्यून मध्यम वर्गीय पारिवारिक पृष्ठभूमि कमजोर छ ।
+    <br><br>
+
+    <span>(घ) किन छिरिङलाई जग्गा प्लटिङ व्यवसाय ठिक लागेन ?</span>
+    <br>
+    जग्गा प्लटिङको व्यवसायबाट पैसा कमाइए पनि खेतीयोग्य जमिन मासेर कड्कूटको जङ्गल बनाउने र नेपाली कमाईलाई बर्बाद बनाउने भएकाले छिरिङलाई जग्गा प्लटिङ व्यवसाय ठिक लागेन ।
+    <br><br>
+    </body>
 
 </html>
